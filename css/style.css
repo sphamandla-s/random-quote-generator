@@ -14,13 +14,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color: aliceblue;
 }
 
 
 main {
     text-align: center;
-    background-color: aliceblue;
-    opacity: 0.5;
+    opacity: 0.9;
     width: 550px;
     padding: 30px;
     border-radius: 20px;
@@ -45,4 +45,15 @@ main h1 {
     border-radius: 20px;
     text-transform: uppercase;
     border: 1px solid red;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 70%;
+    }
+
+    main h1 {
+        font-size: 15px;
+    }
 }
