@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('/images/nick-nari-CvCuZJdQyFw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+main {
+    text-align: center;
+    background-color: aliceblue;
+    opacity: 0.5;
+    width: 550px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+main h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#quote {
+    line-height: 1.5rem;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#author {
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+}
+
+#newQuoteBtn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: 1px solid red;
+}
